@@ -7,10 +7,12 @@ public class GestionMedicos {
     
     private List<Medico> medicos; // Calendario de citas
 
-    // TODO: Método para consultar el historial médico de un paciente
+    // TODO: Método para añadir un medico a la lista 
     public void addMedico(Medico medico) {
     }
-
+    // TODO: Método para listar los medicos de la aplicaicón
+    public void listMedicos() {
+    }
     // Método para buscar especialistas por especialidad
     public void buscarEspecialistas(String especialidad) {
         // Lógica para buscar especialistas por especialidad
