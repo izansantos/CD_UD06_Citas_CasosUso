@@ -12,6 +12,7 @@ public class AplicacionSalud {
             // Simulando las funcionalidades de consulta médica
             GestionMedicos consulta = new GestionMedicos();
             //TODO: addMedicos 
+            consulta.addMedico(new Medico("Francisco", "Cardiología"));
             consulta.buscarEspecialistas("Cardiología");
             consulta.verRecetas("Paciente1");
             consulta.generarInforme("Paciente1");
